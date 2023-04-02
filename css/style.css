@@ -4,6 +4,7 @@ body{
     background-color: #3d405b;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    line-height: 1.2;
     
 }
 
@@ -26,16 +27,17 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding: 5px 5px;
+    opacity: 0.8;
     border: 5px dotted #e07a5f;
     width: 100%;
     border-radius: 30px;
-    transition: 5s;
+    transition: 3s;
 }
 
 img:hover
 {
     border: 5px solid #81b29a;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 div:nth-child(even) img{
@@ -92,8 +94,20 @@ nav a{
     font-size: 40px ;
     font-weight: 300;
     margin-bottom: 30px;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
+}
+
+.subtitle{
+    font-size: 23px;
+}
+
+.disclaimer{
+    font-style: italic;
+}
+
+footer a{
+    color: #f2cc8f;
 }
 
 /* Index page styling */
@@ -112,6 +126,52 @@ nav a{
     margin-top: 20px;
 }
 
+/*Contact form on the index page styling*/
+.contactForm{
+    background-color: #f2cc8f;
+    color: #3d405b;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 40px 40px;
+    font-size: 16px;
+    }
+
+.contactForm div{
+    margin: 10px 0px;
+}
+
+.contactForm h1{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.contactForm button{
+    width: 70%;
+    margin-top: 20px;
+    border: none;
+    background-color:#e07a5f;
+    color:#eee2df;
+    font-size: 18px;
+}
+
+input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.message{
+    height: 100px;
+}
+
+
 /* literature page styling */
 .litcontainer{
     display:grid;
@@ -127,14 +187,14 @@ nav a{
 .litcontainer h2{
     font-size: 26px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     color: #3d405b;
 }
 
 .litcontainer h3{
     font-size:18px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     color: #3d405b;
 }
@@ -159,7 +219,7 @@ nav a{
 .hiscontainer h2{
     font-size: 26px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-bottom: 10px;
     color: #3d405b;
 }
